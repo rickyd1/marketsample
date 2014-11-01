@@ -1,0 +1,14 @@
+<Alloy>
+	<NavigationWindow id="navGroupWin">
+		<Window id="noteWin" title="My Market Notes">
+			<TableView dataCollection="notes">
+				<TableViewRow title="{title}" location="{location}" note="{note}" onClick="showNote"></TableViewRow>
+			</TableView>
+			<Toolbar bottom="0">
+                <Items>
+                    <Button id="add" title="Add Note" onClick="addNote"/>
+                </Items>
+            </Toolbar>
+		</Window>
+	</NavigationWindow>
+</Alloy>

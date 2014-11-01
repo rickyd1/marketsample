@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Markets" icon="KS_nav_ui.png">
+			<Require type="view" src="markets"/>
+		</Tab>
+		<Tab title="Notes" icon="KS_nav_views.png">
+			<Require type="view" src="notes"/>
+		</Tab>
+		<Tab title="Shopping List" icon="KS_nav_ui.png">
+			<Require type="view" src="shoppinglist"/>
+		</Tab>
+	</TabGroup>
+</Alloy>

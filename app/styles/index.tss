@@ -1,0 +1,15 @@
+"Window": {
+	statusBarStyle : Titanium.UI.iPhone.StatusBar.DEFAULT,
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#333",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 

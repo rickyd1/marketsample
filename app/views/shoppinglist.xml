@@ -1,0 +1,40 @@
+<Alloy>
+  <!-- Main Window -->
+  <Window id="shoplistWin" title="Shopping List">
+    <!-- header -->
+    <View id="header">
+      <Label id="title">Shopping List</Label>
+      <View class="divider"/>
+      <View id="addItem" onClick="addShopItem">
+        <ImageView id="addImage"/>
+      </View>
+    </View>
+	
+	<!-- Main table for tasks
+      Use model-view binding to render the rows for this table
+      based on the models in the given collection. "dataCollection"
+      represents the collection used to populate this table.
+      "dataWhere" is a function used to filter the list of
+      models processed within the collection. "dataTransform"
+      is a function that will be executed on each model as it
+      is rendered as a row. It gives the opportunity to modify
+      the model's values before they are applied to each row.
+    -->
+    <TableView id="itemTable" dataCollection="shoplist" dataFilter="whereFunction" dataTransform="transformFunction">
+    	<Require src="itemrow"/>
+    </TableView>
+	
+	<!-- iOS: footer with buttons -->
+    <View platform="ios" id="footer">
+      <TabbedBar onClick="showItems" id="tabbedbar">
+        <Labels>
+          <Label>All Items</Label>
+          <Label>To Bag</Label>
+          <Label>Bagged</Label>
+        </Labels>
+      </TabbedBar>
+    </View>
+	
+  
+  </Window>
+</Alloy>

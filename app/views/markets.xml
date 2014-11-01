@@ -1,0 +1,11 @@
+<Alloy>
+	<NavigationWindow id="navMarketGroupWin">
+		<Window id="marketWin" title="My Market Notes">		
+	    	<View layout="vertical">
+				<Label>Select a View</Label>
+				<Button class="button" onClick="webView">Web View</Button>
+	  			<Button class="button" onClick="jsonList">JSON List</Button>
+	        </View>			
+		</Window>
+	</NavigationWindow>
+</Alloy>

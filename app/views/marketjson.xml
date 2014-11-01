@@ -1,0 +1,5 @@
+<Alloy>  
+ 	<Window title="Market Locations">  
+  		<TableView id="table"></TableView>  
+ 	</Window>    
+</Alloy> 

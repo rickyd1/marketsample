@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+        <WebView id='marketView' url="https://data.hawaii.gov/w/kpdu-pehk/w4u8-7ba7?cur=73wjzJCBhNP&from=root" />
+    </Window>
+</Alloy> 

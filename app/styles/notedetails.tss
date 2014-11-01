@@ -1,0 +1,21 @@
+"#titleLabel": {
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#locationLabel": {
+    font: {
+        fontSize: '18'
+    },
+    left: '10'
+},
+"#noteLabel": {
+    font: {
+        fontSize: '15'
+    },
+    left: '10'
+},
+".container" : { 
+   backgroundColor: 'white' 
+}
