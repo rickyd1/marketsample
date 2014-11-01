@@ -1,1 +1,0 @@
-module.exports = [{"isClass":true,"priority":10000.0004,"key":"button","style":{width:"50%",top:"20dp",}},{"isId":true,"priority":100000.0002,"key":"addWin","style":{layout:"vertical",barColor:"#a00",}},{"isId":true,"priority":100000.0003,"key":"itemField","style":{width:"90%",top:"25dp",borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,returnKeyType:Ti.UI.RETURNKEY_DONE,}}];
